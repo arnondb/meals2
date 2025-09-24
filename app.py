@@ -4,7 +4,7 @@ import pandas as pd
 from supabase import create_client
 
 # --- Credentials ---
-users = {"alice": "password123", "bob": "secret456"}
+users = {"Efrat": "efchek123", "Arnon": "Aloniloni1"}
 
 # --- Supabase ---
 SUPABASE_URL = st.secrets["SUPABASE_URL"]
@@ -40,7 +40,7 @@ if st.session_state.logged_in:
 
     # --- Add meal ---
     st.write("### Add a meal")
-    meal_options = ["Breakfast", "Lunch", "Dinner", "Snack", "Other"]
+    meal_options = ["Bonty", "Shnitzl and rice", "Pita sandwich", "Pizza", "Pizza-Pita", "Cornflakes nad milk", "Other"]
     meal_type = st.selectbox("Meal type", meal_options)
     custom_meal = st.text_input("Or enter a custom meal type")
 
