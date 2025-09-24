@@ -1,4 +1,11 @@
+# Streamlit framework
 streamlit==1.31.0
+
+# Data handling
 pandas==2.2.3
-supabase-py==2.21.0
+
+# Supabase client for Python 3.13
+supabase>=2.24.0
+
+# Optional: for environment variables locally
 python-dotenv==1.0.1
