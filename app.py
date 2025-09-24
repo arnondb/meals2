@@ -40,7 +40,7 @@ if st.session_state.logged_in:
 
     # --- Add meal ---
     st.write("### Add a meal")
-    meal_options = ["Bonty", "Shnitzl and rice", "Pita sandwich", "Pizza", "Pizza-Pita", "Cornflakes nad milk", "Other"]
+    meal_options = ["Bounty", "Shnitzl and rice", "Pita sandwich", "Pizza", "Pizza-Pita", "Cornflakes nad milk", "Other"]
     meal_type = st.selectbox("Meal type", meal_options)
     custom_meal = st.text_input("Or enter a custom meal type")
 
