@@ -5,7 +5,7 @@ numpy==1.26.4
 
 # --- Authentication ---
 streamlit-authenticator==0.4.2
-extra-streamlit-components==0.1.82
+extra-streamlit-components==0.1.81
 
 # --- Database ---
 supabase==2.4.1
