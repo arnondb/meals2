@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import datetime, date
 import pandas as pd
-from supabase import create_client
+from supabase import create_client, Client
 
 # --- Credentials ---
 users = {"Efrat": "efchek123", "Arnon": "Aloniloni1"}
